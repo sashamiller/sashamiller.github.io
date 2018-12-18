@@ -8,6 +8,9 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
 }
+body {
+        background-image: url("background.jpg");
+} 
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
