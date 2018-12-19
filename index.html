@@ -1,5 +1,31 @@
 ﻿<!DOCTYPE html>
 <html>
+
+<head>
+<style>
+.flex-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+ 
+}
+
+.flex-container > div {
+  margin: 6px;
+  padding: 2px;
+  font-size: 10px;
+}
+</style>
+</head>
+
+<head> 
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/d44386e267.js"></script>
+<script src="assets/js/particles.js"></script>
+<script src="assets/js/main.js"></script>
+</head>
+
+
 <head>
 <style>
 body {
@@ -8,18 +34,36 @@ body {
 }
 </style>
 </head>
+
+
+
+
 <body style = "font-family:Georgia">
  <font size="+6">
 <center>Sasha Miller</center>
 </font>
-<center><img src="sasha pt2.jpg" alt="Flowers in Chania" width="270" height="270"></center>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img {
+  border-radius: 50%;
+}
+</style>
+</head>
+<body>
+
+<center><img src="sasha pt2.jpg" alt="Avatar" style="width:300px"></center>
+
+</body>
+
+
+
 </head>
 <body style = "font-family:Georgia">
  <font size="+2">
 <center>I am passionate about using my coding and critical thinking skills to solve problems.</center>
 </font>
 
-<div class="row">
+<div class="flex-container">
   <div class="column">
 <a href="https://www.linkedin.com/in/sasha-miller-2020/">
   <center><img src="linkedin.png" alt="Linked In" style="width:42px;height:42px;border:0"></center>
@@ -29,9 +73,6 @@ body {
 <a href="mailto:nikksmiller@gmail.com">
   <center><img src="email.png" alt="nikksmiller@gmail.com" style="width:45px;height:35px;border:0"></center>
 </a>
-  </div>
-  <div class="column">
-    <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
   </div>
 </div>
 
